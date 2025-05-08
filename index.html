@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Livros</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Livros</h1>
+    </header>
+    <nav>       
+        <label for="procura">🔍</label>
+        <input id="procura" type="search" placeholder="Você pode procurar aqui"> <!-- tenho que aprender a fazer isso funcionar -->
+
+        <select name="select-de-categorias" id="select-de-categorias">
+            <option value="todos">Todos</option>
+        </select></nav>
+    <aside>
+        <!--Formulário de cadastro à esquerda (ou acima em telas pequenas).-->
+
+        <form action="">
+            <label for="titulo">Título<input type="text" id="titulo"></label>
+
+            <label for="autor">Autor<input type="text" id="autor"></label>
+
+            <label for="ano">Ano <input type="number" id="ano" min="1000" max="2025"></label> <!-- colocar um min e max que pega o ano atual e impõe isso de limite-->
+
+            <label for="categoria">Categoria</label>
+            <select id="categoria">
+                <option value="romance">Romance</option>
+                <option value="ficcao">Ficção</option>
+                <option value="terror">Terror</option>
+                <option value="biografia">Biografia</option>
+                <option value="historia">História</option>
+            </select>
+        </form>
+        <button id="addLivro">Adicionar Livro</button>
+    </aside>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
