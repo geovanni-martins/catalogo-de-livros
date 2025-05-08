@@ -65,22 +65,22 @@ Suporte a modo escuro.
 1. HTML – Estrutura da Página
 Você precisa saber:
 
-- [ ] Como criar formularios
+- [X] Como criar formularios
 
-- [ ] Como criar listas e contêineres
+- [X] Como criar listas e contêineres
 
-- [ ] Acessibilidade e semântica básica
+- [X] Acessibilidade e semântica básica
 
-- [ ] Atributos importantes: id, class, placeholder, type.
+- [X] Atributos importantes: id, class, placeholder, type.
 
 2. CSS – Estilização e Layout
 Você deve entender:
 
-- [ ] Flexbox e/ou Grid para layout.
+- [X] Flexbox e/ou Grid para layout.
 
-- [ ] Responsividade (media queries, porcentagens, viewport).
+- [X] Responsividade (media queries, porcentagens, viewport).
 
-- [ ] Criar cards bonitos com box-shadow, border-radius, etc.
+- [X] Criar cards bonitos com box-shadow, border-radius, etc.
 
 - [ ] Diferenciar visualmente os filtros, campos e resultados.
 
@@ -93,7 +93,7 @@ Aqui está o coração do projeto.
 
 Você precisa dominar:
 
-- [ ] 📌 Manipulação de DOM:
+- [X] 📌 Manipulação de DOM:
 getElementById, querySelector, createElement, appendChild, removeChild.
 
 Acessar e alterar conteúdo (textContent, innerHTML, value).
@@ -105,7 +105,7 @@ addEventListener para submit, click, keyup.
 
 Impedir comportamento padrão de formulário (event.preventDefault()).
 
-- [ ] 📌 Estruturas de controle:
+- [X] 📌 Estruturas de controle:
 Condicionais (if, else).
 
 Loops (for, forEach, map).
@@ -119,7 +119,7 @@ const livros = [
 
 Adicionar, remover, filtrar e buscar dentro desse array.
 
-- [ ] 📌 Funções:
+- [X] 📌 Funções:
 Separar seu código em funções reutilizáveis, como:
 
 adicionarLivro()
