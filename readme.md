@@ -65,11 +65,11 @@ Suporte a modo escuro.
 1. HTML – Estrutura da Página
 Você precisa saber:
 
-- [ ] Como criar formularios (<form>, <input>, <select>, <button>).
+- [ ] Como criar formularios
 
-- [ ] Como criar listas e contêineres (<ul>, <div>, <section>).
+- [ ] Como criar listas e contêineres
 
-- [ ] Acessibilidade e semântica básica (<label for="">).
+- [ ] Acessibilidade e semântica básica
 
 - [ ] Atributos importantes: id, class, placeholder, type.
 
