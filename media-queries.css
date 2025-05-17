@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    img#logo {
+        width: 200px;
+        display: block;
+        margin: auto;           
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+@media (min-width: 993px) {
+    
+}

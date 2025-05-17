@@ -1,0 +1,94 @@
+Design para o Projeto: Catálogo Interativo de Livros
+🧱 Layout geral da página:
+Topo fixo (header):
+
+Título da página: "📚 Meu Catálogo de Livros"
+
+Campo de busca com ícone 🔍
+
+Seletor de categoria com opção “Todos”
+
+Botão para tema claro/escuro 🌙 / ☀️ [Pendente]
+
+Corpo (main):
+
+Formulário de cadastro à esquerda (ou acima em telas pequenas).
+
+Lista de livros exibida como cards em grade (3 colunas no desktop, 1 ou 2 no celular).
+
+🧩 Formulário de cadastro:
+Colocado no topo ou na lateral.
+
+Campos:
+
+Título (input text)
+
+Autor (input text)
+
+Ano (input number, min=1000, max=9999)
+
+Categoria (select com pelo menos: Romance, Ficção, Terror, Biografia, História)
+
+Botão: “Adicionar Livro”
+
+Design:
+
+Fundo branco (ou escuro no dark mode)
+
+Espaçamento entre campos (pelo menos 1rem)
+
+Borda arredondada
+
+Sombras leves
+
+Feedback de erro (ex: campo vazio fica com borda vermelha)
+
+🧾 Card de Livro:
+Cada livro cadastrado deve aparecer como um card, contendo:
+
+📖 Título em destaque (negrito)
+
+✍️ Autor
+
+📅 Ano
+
+🏷️ Categoria (com cor diferente para cada categoria)
+
+❌ Botão “Remover” (visível no canto)
+
+Design dos cards:
+
+Caixa branca com sombra sutil
+
+Borda arredondada (border-radius: 8px)
+
+Padding interno
+
+Margem entre cards
+
+Categoria pode ser uma badge (como uma etiqueta colorida)
+
+Remoção com animação suave (fade out)
+
+🎨 Tema claro x escuro:
+Claro: fundo branco, texto preto
+
+Escuro: fundo #1e1e1e, texto #f0f0f0
+
+Transição suave ao alternar o tema
+
+Ícone do botão muda de ☀️ para 🌙
+
+📱 Responsividade:
+Telas grandes: formulário à esquerda, cards à direita em 3 colunas
+
+Telas médias: tudo em 1 coluna, cards em 2 colunas
+
+Celular: tudo em 1 coluna
+
+💥 Animações (opcional, mas quero):
+Ao adicionar um livro, o card aparece com leve animação (ex: opacity + scale)
+
+Ao remover, o card desaparece com animação
+
+Transição entre claro e escuro suave

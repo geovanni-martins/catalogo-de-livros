@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo de Livros</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="media-queries.css" >
 </head>
 <body>
     <header>
         <h1>Catálogo de Livros</h1>
+        <img src="/src/img/simbolo.png" alt="Logo" id="logo">
     </header>
     <nav>       
         <label for="procura">🔍</label>
@@ -18,13 +20,17 @@
         <select name="select-de-categorias" id="select-de-categorias">
             <option value="todos">Todos</option>
         </select></nav>
+
+        <img id="icon-add" src="/src/img/icon-ADD.png" alt="adicionar mais" onclick="mostrarAdicaoLivros()">
     <aside>
         <!--Formulário de cadastro à esquerda (ou acima em telas pequenas).-->
 
         <form action="">
-            <label for="titulo">Título<input type="text" id="titulo"></label>
+            <label for="titulo" class="textFromInputGrande">Título</label> 
+            <input type="text" id="titulo" class="inputGrande"> <br>
 
-            <label for="autor">Autor<input type="text" id="autor"></label>
+            <label for="autor" class="textFromInputGrande">Autor</label>
+            <input type="text" id="autor" class="inputGrande"> <br>
 
             <label for="ano">Ano <input type="number" id="ano" min="1000" max="2025"></label> <!-- colocar um min e max que pega o ano atual e impõe isso de limite-->
 
@@ -42,8 +48,10 @@
     <main>
 
     </main>
-    <footer>
-
+    <footer> <!-- um pedaço do que está atrás tá aparecendo -->
+        <p>@geovanni-martins</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

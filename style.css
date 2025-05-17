@@ -3,3 +3,66 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+:root {
+    --cor1: #331d4a;
+    --cor2: #e80560;
+    --cor3: #ffa02e;
+    --cor4: #afcacc;
+    --cor5: #e4f3d8;
+}
+
+header {
+    background-color: var(--cor2);
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+nav > input {
+    padding: 3px;
+    width: 70vw;
+
+    margin: 5px 0px;
+}
+
+nav > select {
+    padding: 3px;
+}
+
+#icon-add {
+    display: block;
+    width: 30px;
+    margin: auto;
+}
+
+aside{
+    display: none;
+}
+
+.textFromInputGrande {
+    width: 200px;
+}
+
+.inputgrande {
+    margin-left: 5px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+
+    background-color: black;
+    padding: 6px;
+    width: 100vw;
+
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    right: 0px
+}
