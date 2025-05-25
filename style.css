@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
+:root { /*Cores do projeto*/
     --cor1: #331d4a;
     --cor2: #e80560;
     --cor3: #ffa02e;
@@ -20,6 +20,7 @@ body {
     background-color: var(--cor4);
 }
 
+/* Área de Busca */
 nav {
     width: 100vw;
     display: flex;
@@ -51,20 +52,67 @@ nav select {
     margin: auto;
 }
 
+/* Área de Adição de Livros */
 aside{
     display: none;
+    width: 100%;
 }
 
-.textFromInputGrande {
-    width: 200px;
+div.campo-linha-grande { /* campo-linha-grande é onde o input ocupa um pedaço grande da linha e o label o resto */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 8px;
+
+    width: 100%;
+    margin-bottom: 2px;
 }
 
-.inputgrande {
-    margin-left: 5px;
+div.campo-linha-grande > label.textFromInputGrande {
+    width: 18%;
+    text-align: center;
+    padding: 3px;
+    align-items: center;
 }
 
-input {
-    margin-left: 5px;
+div.campo-linha-grande > input.inputGrande {
+    width: 80%;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+div.campo-linha-compartilhada { /* Aqui vão ter dois labels e dois inputs na mesma linha */
+    display: flex;
+}
+
+div.campo-interno {
+    padding: 0px 8px;
+    width: 50%;
+    display: flex; /* Por ter itens dentro, o display flex influencia eles*/
+
+    text-align: center;
+}
+
+div.campo-interno > label {
+    width: 35%;
+    padding: 3px;
+    margin-right: 9%;
+}
+
+div.campo-interno > input, div.campo-interno > select {
+    width: 60%;
+    padding: 3px;
+    margin-bottom: 3px;
+
+    border-radius: 4px;
+}
+
+button#addLivro {
+    display: block;
+    margin: auto;
+
+    width: 35%;
+    padding: 2px;
 }
 
 footer {
