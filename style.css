@@ -24,26 +24,27 @@ body {
 nav {
     width: 100vw;
     display: flex;
-    align-items: center;
-}
-
-label#labelFromInputProcura {
-    width: 70vw;
+    padding: 0px 3px; /* deixei padding apenas no left e right  */
 }
 
 label#labelFromInputProcura::before {
     content: "🔍";
+    flex: 0;  /* faz com que ele ocupe apenas o espaço dele, que no caso é o emoji, fazendo só ter a largura dele */
+}
+
+label#labelFromInputProcura {
+    display: flex; /* faz ele também ser um elemento com display flex, tornado seus filhos flexiveis */
+    flex: 2;  /* faz com que o label ocupe 2 partes do nav, não sendo necessário uma largura fixa com width */
 }
 
 input#procura {
     padding: 3px;
-    width: 91%;
-    margin: 5px 0px;
+    flex-grow: 2;  /* PESQUISAR SOBRE ISSO E FLEX: PARA EXPLICAR DIREITO*/
 }
 
 nav select {
     padding: 3px;
-    width: 29vw; 
+    flex: 1;  /* faz com que ele ocupe uma parte do nav, o tornando flexível ao invés de usar width*/
 }
 
 #icon-add {
