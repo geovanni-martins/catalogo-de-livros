@@ -22,7 +22,7 @@ body {
 
 /* Área de Busca */
 nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     padding: 0px 3px; /* deixei padding apenas no left e right  */
 }
@@ -122,10 +122,9 @@ footer {
 
     background-color: black;
     padding: 6px;
-    width: 100vw;
+    width: 100%;
 
     position: absolute;
     display: block;
     bottom: 0px;
-    right: 0px
 }
