@@ -22,9 +22,10 @@
         </select>
     </nav>
 
-        <img id="icon-add" src="/src/img/icon-ADD.png" alt="adicionar mais" onclick="mostrarAdicaoLivros()">
+        <img id="icon-add" src="/src/img/icon-ADD.png" alt="adicionar mais" onclick="mostrarAdicaoLivrosTelasPequenas()">
     <aside>
         <!--Formulário de cadastro à esquerda (ou acima em telas pequenas).-->
+        <img src="./src/img/icon-left.png" alt="deixar de exibir adição de livros" width="12px" onclick="mostrarAdicaoLivrosTelasMaiores()" id="setaLeft">
 
         <form action="">
             <div class="campo-linha-grande">
@@ -56,6 +57,9 @@
         </form>
         <button id="addLivro">Adicionar Livro</button>
     </aside>
+
+    <img src="./src/img/icon-right.png" alt="estender barra de adicionar livros" width="12px" onclick="mostrarAdicaoLivrosTelasMaiores()" id="setaRight">
+    
     <main>
 
     </main>

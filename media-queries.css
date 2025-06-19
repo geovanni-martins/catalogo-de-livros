@@ -8,18 +8,70 @@
     }
 
     img#logo {
-        width: 200px;
+        width: 40vw;
         display: block;
         margin: auto;           
     }
 
+    img#setaLeft {
+    display: none;
+    }
 
+    img#setaRight {
+    display: none;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-    
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    img#logo {
+        width: 40vw;
+        display: block;
+        margin: auto;           
+    }
+
+    img#setaLeft {
+    display: none;
+    }
+
+    img#setaRight {
+    display: none;
+    }
 }
 
 @media (min-width: 993px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img#logo {
+        width: 20vw;
+        display: block;
+        margin: auto;
+    }
+
+    #icon-add {
+        display: none;
+    }
+
+    nav input#procura, nav select {
+        padding: 3px;
+    }
+
+    aside {
+        display: none;
+        max-width: 23%;
+    }
     
 }
